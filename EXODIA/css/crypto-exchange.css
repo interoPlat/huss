@@ -1,0 +1,890 @@
+
+.row-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.pb-5 {
+  padding-bottom: 30px;
+}
+
+.mb-3 {
+  margin-bottom: 30px;
+}
+
+.pt-5 {
+  padding-top: 50px;
+}
+
+.pad-none {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.banner-bg {
+  position: absolute;
+  top: 0;
+}
+
+.exchangebanner {
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../img/crypto-exchange/exchange.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.exchangebanner .content-section {
+  z-index: 10000;
+  background-color: transparent;
+  position: relative;
+}
+.exchangebanner .content-section h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  color: var(--white);
+}
+.exchangebanner .content-section h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  display: inline-block;
+  color: var(--white);
+}
+.exchangebanner .content-section p {
+  font-size: 2rem;
+  color: var(--white);
+  line-height: 4rem;
+  margin: 1rem 0;
+}
+.exchangebanner .content-section button {
+  margin: 1rem 0;
+}
+
+.gray-bg {
+  background-color: #f3f3f5;
+}
+
+.about-us h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+  color: var(--dark-text);
+}
+.about-us p {
+  color: var(--para-text);
+  line-height: 2.8rem;
+  margin: 10px 0;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+.about-us p:last-child {
+  margin-bottom: 0px !important;
+}
+.about-us .aboutbtn {
+  min-width: 170px;
+  height: 50px;
+  color: #fff;
+  font-weight: 400;
+  border: 1px solid transparent;
+  background: -o-linear-gradient(left, #000000 30%, #9b743b);
+  background: -o-linear-gradient(350deg, #000000 30%, #9b743b);
+  background: linear-gradient(100deg, #000000 30%, #9b743b);
+  font-size: 16px;
+  line-height: 35px;
+}
+.about-us .aboutbtn:focus {
+  border: none !important;
+}
+.about-us .aboutbtn:hover {
+  background: #9b743b;
+  color: #fff;
+}
+.about-us .aboutbtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-title h2 {
+  display: block;
+  font-size: 5rem;
+  line-height: 7rem;
+  font-weight: 700;
+  color: var(--dark-text);
+}
+
+/*Crypto Exchange Development*/
+#services .center-heading {
+  padding-top: 172px;
+  padding-bottom: 50px;
+}
+#services .center-heading .our {
+  font-size: 5.5rem;
+  font-weight: bold;
+  display: inline-block;
+}
+#services .center-heading-2 {
+  padding-top: 211px;
+  padding-bottom: 50px;
+}
+#services h2 {
+  font-size: 5.5rem;
+  line-height: 7rem;
+  display: block;
+  margin-bottom: 13px;
+}
+#services .card {
+  padding: 30px 30px;
+  background-color: #f3f3f5;
+  margin: 10px;
+  border-radius: 10px;
+}
+#services .card img {
+  width: 20%;
+  border-radius: 50%;
+}
+#services .card-body h4 {
+  font-size: 26px;
+  font-weight: 800;
+  padding: 15px 0 10px 0;
+  line-height: 4rem;
+}
+#services .card-body p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+#bot-development {
+  background-color: #191b20;
+}
+
+#bot-development .bot-development {
+  z-index: 1;
+}
+#bot-development .section-title h2 {
+  color: #fff;
+}
+#bot-development .section-title p {
+  color: #fff;
+}
+#bot-development .bot-dev-section {
+  padding: 0 50px;
+  color: #fff;
+}
+#bot-development .bot-dev-section img {
+  width: 90px;
+  height: 90px;
+  padding: 10px 0;
+}
+#bot-development .bot-dev-section h3 {
+  padding: 10px 0;
+}
+#bot-development .bot-dev-section p {
+  padding: 10px 0;
+}
+#bot-development .bot-box {
+  padding: 20px 70px;
+}
+
+.sec-padding {
+  padding: 100px 20px;
+}
+
+.text-gradient {
+  background: -o-linear-gradient(left, #9b743b   30%, #FAFA33);
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #9b743b ), to(#FAFA33));
+  background: linear-gradient(90deg, #9b743b  30%, #FAFA33);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.equal-height-card {
+  height: 100%;
+}
+
+/*END Crypto Exchange Development*/
+.phaseproject {
+  background: var(--dark-text);
+  display: block;
+}
+.phaseproject .section-title {
+  margin-bottom: 4rem;
+}
+.phaseproject .section-title h2 {
+  color: #fff;
+}
+.phaseproject .section-title h2 span {
+  background: -o-linear-gradient(left, #9b743b 30%, #FAFA33);
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #9b743b), to(#FAFA33));
+  background: linear-gradient(90deg, #9b743b 30%, #FAFA33);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 800;
+  display: inline-block;
+}
+.phaseproject .card {
+  border-radius: 14px;
+  -webkit-box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.1);
+  padding: 7rem 5rem;
+  height: 100%;
+  background-color: #7e5ae2;
+  /* For browsers that do not support gradients */
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#FAFA33));
+  background-image: -o-linear-gradient(top left, #000000, #FAFA33);
+  background-image: linear-gradient(to bottom right, #000000, #FAFA33);
+  color: var(--white);
+}
+.phaseproject .card img {
+  width: 88px;
+  height: 80px;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  opacity: 0.4;
+}
+.phaseproject .card__icon {
+  display: block;
+  margin-bottom: 15px;
+}
+.phaseproject .card__body {
+  margin-top: 6rem;
+}
+.phaseproject .card__body ul {
+  list-style-type: none;
+  line-height: 36px;
+}
+.phaseproject .card__body ul li {
+  padding-left: 2rem;
+}
+.phaseproject .card__body ul li::before {
+  content: "\f178";
+  /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em;
+  /* same as padding-left set on li */
+  width: 1.3em;
+  /* same as padding-left set on li */
+}
+.phaseproject .card__body h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  line-height: 3.5rem;
+}
+.phaseproject .card__body p {
+  line-height: 31px;
+}
+
+.highlight {
+  color: var(--para-text);
+}
+
+.highlight-gradient {
+  background: -o-linear-gradient(left, #000000 30%, #FAFA33);
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #000000), to(#FAFA33));
+  background: linear-gradient(90deg, #000000 30%, #FAFA33);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+/*nft card section*/
+.social-box .box {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 3rem;
+  margin: 20px 0px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-box-shadow: 0 0 6px var(--white);
+          box-shadow: 0 0 6px var(--white);
+  height: 100%;
+  border-bottom: 4px solid transparent;
+  -o-border-image: -o-linear-gradient(left, #000000 30%, #FAFA33);
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #000000), to(#FAFA33));
+     border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+  border-image-slice: 1;
+  width: 100%;
+}
+.social-box .box .card-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #f3f3f5;
+  text-align: center;
+  padding: 14px;
+  margin-bottom: 15px;
+}
+.social-box .box .box-text {
+  font-size: 16px;
+  line-height: 3rem;
+  color: var(--para-text);
+}
+.social-box .box .box-title h3 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-top: 0rem;
+  line-height: 36px;
+}
+
+.padding-box {
+  padding: 0px 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.box-shadow-none {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.social-box .box-shadow-none {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background-color: transparent;
+}
+
+.border-bottom-none {
+  border-bottom: none !important;
+}
+
+.listoffeatures__innerbox {
+  display: block;
+  height: 100%;
+  border-radius: 1px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 2rem;
+  border: 1px solid #ededed;
+  border-bottom: 5px solid var(--dark-text);
+  height: 100%;
+}
+.listoffeatures__innerbox h3 {
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: inherit;
+  margin-top: 0px;
+}
+.listoffeatures__innerbox p {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--para-text);
+  letter-spacing: 0;
+}
+
+.center-title {
+  position: relative;
+  top: 4%;
+}
+
+/***NFT Development***/
+#progress-bar-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  height: 100px;
+  margin-top: 65px;
+  margin-right: 10px;
+}
+#progress-bar-container ul {
+  padding: 0;
+  margin: 0;
+  padding-top: 15px;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin-top: -40px;
+}
+#progress-bar-container ul li {
+  list-style: none;
+  float: left;
+  width: 14%;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  vertical-align: bottom;
+  height: 60px;
+  position: relative;
+}
+
+#progress-bar-container ul li:before {
+  content: " ";
+  display: block;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #707070;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+#progress-bar-container ul li.active:before,
+#progress-bar-container ul li:hover:before {
+  /*   border: solid 2px #ff5061; */
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #ff5061;
+}
+
+#progress-bar-container ul li .step-inner {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 12px;
+}
+
+#progress-bar-container ul li.active,
+#progress-bar-container ul li:hover {
+  color: var(--orange-color);
+}
+
+#progress-bar-container ul li:after {
+  content: " ";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #707070;
+  margin: auto;
+  border: solid 7px #fff;
+  border-radius: 50%;
+  margin-top: 60px;
+  -webkit-box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 13px -1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+#progress-bar-container ul li:hover:after {
+  background: var(--orange-color);
+}
+
+#progress-bar-container ul li.active:after {
+  background: var(--orange-color);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#FAFA33));
+  background-image: -o-linear-gradient(top left, #000000, #FAFA33);
+  background-image: linear-gradient(to bottom right, #000000, #FAFA33);
+}
+
+#line {
+  width: 81%;
+  margin: auto;
+  background: #707070;
+  height: 5px;
+  position: absolute;
+  left: 9%;
+  top: 57px;
+  z-index: 1;
+  border-radius: 50px;
+  -webkit-transition: all ease 0.9s;
+  -o-transition: all ease 0.9s;
+  transition: all ease 0.9s;
+}
+#line #line-progress {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #ff5061;
+  background: -webkit-gradient(linear, left top, right top, from(#000000), to(#FAFA33));
+  background: -o-linear-gradient(left, #000000 0%, #FAFA33 100%);
+  background: linear-gradient(to right, #000000 0%, #FAFA33 100%);
+  position: absolute;
+  z-index: 2;
+  border-radius: 50px;
+  -webkit-transition: all ease 0.9s;
+  -o-transition: all ease 0.9s;
+  transition: all ease 0.9s;
+}
+
+#progress-content-section {
+  width: 100%;
+  margin: auto;
+  background: #f3f3f3;
+  border-radius: 4px;
+}
+#progress-content-section .section-content {
+  padding: 64px 40px;
+  text-align: center;
+  min-height: 300px;
+  background-image: url(../img/nft/bg-banner.svg);
+}
+#progress-content-section .section-content h2 {
+  font-size: 30px;
+  color: var(--orange-color);
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#progress-content-section .section-content p {
+  font-size: 20px;
+  line-height: 1.7em;
+  color: #1e1e1e;
+  font-weight: 600;
+}
+
+.section-content {
+  display: none;
+  -webkit-animation: FadeInUp 700ms ease 1;
+          animation: FadeInUp 700ms ease 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transform: translateY(15px);
+      -ms-transform: translateY(15px);
+          transform: translateY(15px);
+  opacity: 0;
+}
+
+.section-content.active {
+  display: block;
+}
+
+@-webkit-keyframes FadeInUp {
+  0% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes FadeInUp {
+  0% {
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .exchangebanner {
+    height: 100vh;
+  }
+  .exchangebanner .content-section h1 {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+  .exchangebanner .inner-container {
+    min-width: 90%;
+    max-width: 90%;
+  }
+
+  .second-bg img {
+    width: 100%;
+  }
+
+  #services h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  #services .center-heading {
+    padding-top: 0;
+  }
+  #services .center-heading .our {
+    font-size: 4rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+  #services .card {
+    margin: 0px;
+    padding: 30px 20px;
+  }
+
+  #services .center-heading-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section-title h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .center-title {
+    top: auto;
+  }
+
+  .listoffeatures .text-center {
+    text-align: left;
+  }
+
+  .phaseproject .text-center {
+    text-align: left;
+  }
+  .phaseproject .card {
+    border-radius: 10px;
+    padding: 4rem 2rem;
+    height: 100%;
+  }
+
+  #progress-bar-container {
+    height: 50px;
+  }
+  #progress-bar-container ul li::after {
+    margin-top: 10px;
+  }
+  #progress-bar-container ul li .step-inner {
+    display: none;
+  }
+  #progress-bar-container #line {
+    width: 83%;
+    top: 10px;
+  }
+
+  #progress-content-section .section-content {
+    background-image: none;
+    padding: 16px 24px;
+    min-height: 320px;
+  }
+  #progress-content-section h2 {
+    font-size: 22px !important;
+  }
+  #progress-content-section p {
+    font-size: 16px !important;
+  }
+
+  .block-gap {
+    margin-bottom: 0px !important;
+  }
+
+  .about-us h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+.block-gap {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .exchangebanner {
+    height: 70vh;
+  }
+  .exchangebanner .content-section h1 {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+  .exchangebanner .inner-container {
+    min-width: 90%;
+    max-width: 90%;
+  }
+
+  #services h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  #services .center-heading {
+    padding-top: 0;
+  }
+  #services .card {
+    margin: 0px;
+    padding: 30px 20px;
+  }
+
+  .section-title.text-center h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .section-title h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .center-title {
+    top: auto;
+  }
+
+  .listoffeatures .text-center {
+    text-align: left;
+  }
+
+  .phaseproject .card {
+    border-radius: 10px;
+    padding: 4rem 2rem;
+    height: 100%;
+  }
+
+  #progress-bar-container {
+    height: 50px;
+  }
+  #progress-bar-container ul li::after {
+    margin-top: 10px;
+  }
+  #progress-bar-container ul li .step-inner {
+    display: none;
+  }
+  #progress-bar-container #line {
+    width: 83%;
+    top: 10px;
+  }
+
+  #progress-content-section .section-content {
+    background-image: none;
+    padding: 16px 24px;
+    min-height: 320px;
+  }
+  #progress-content-section h2 {
+    font-size: 22px !important;
+  }
+  #progress-content-section p {
+    font-size: 16px !important;
+  }
+
+  .about-us h2 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .exchangebanner .content-section h1 {
+    font-size: 5rem;
+  }
+
+  .center-title {
+    top: auto;
+  }
+
+  #progress-bar-container {
+    height: 50px;
+  }
+  #progress-bar-container ul li::after {
+    margin-top: 10px;
+  }
+  #progress-bar-container ul li .step-inner {
+    display: none;
+  }
+  #progress-bar-container #line {
+    width: 83%;
+    top: 10px;
+  }
+
+  #progress-content-section .section-content {
+    background-image: none;
+  }
+  #progress-content-section h2 {
+    font-size: 22px !important;
+  }
+
+  .about-us h2 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #bot-development .bot-box {
+    padding: 20px 9px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+  #bot-development .bot-box {
+    padding: 20px 12px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+  .about-us p {
+    font-size: 1.5rem;
+  }
+  .about-us h2 {
+    font-size: 3.8rem;
+    line-height: 5rem;
+  }
+
+  .second-bg img {
+    width: 380px;
+  }
+
+  #services .center-heading .our {
+    font-size: 4rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+  #services h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .social-box .center-title {
+    top: auto;
+  }
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .container-sm {
+    min-width: 70% !important;
+    max-width: 70% !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .aboutus img {
+    display: none;
+  }
+}

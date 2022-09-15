@@ -1,0 +1,152 @@
+:root {
+  --numberBoxShadow: 0px 70px 65px rgba(0, 0, 0, 0.039), 0px 30px 30px rgba(0, 0, 0, 0.037), 0px 15px 15px rgba(0, 0, 0, 0.036), 0px 10px 8px rgba(0, 0, 0, 0.035), 0px 4px 4px rgba(0, 0, 0, 0.034), 0px 2px 2px rgba(0, 0, 0, 0.033);
+  --numberBoxBorder: 0 0 0 1px hsla(0, 0%, 100%, 0.6);
+  --numberBoxBackground: #fff;
+}
+
+.notfound-page {
+  padding-top: 11rem;
+  background-color: #fafbfc;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.notfound-page .notfound-color {
+  background-color: #8467f3;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+.notfound-page .notfound-grid {
+  display: grid;
+}
+.notfound-page .grid-flow-col {
+  grid-auto-flow: column;
+}
+.notfound-page .gap-px {
+  gap: 1px;
+}
+.notfound-page .mb-01 {
+  margin-bottom: 1px;
+}
+.notfound-page .bg-color {
+  background-color: #fff;
+}
+.notfound-page .pb-100 {
+  padding-bottom: 100%;
+}
+.notfound-page .z-10 {
+  z-index: 10;
+}
+.notfound-page .notfound-animation {
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+  -webkit-animation: errorPage-numberBox 3s ease-in-out infinite;
+  animation: errorPage-numberBox 3s ease-in-out infinite;
+}
+.notfound-page .notfound-animationbox {
+  box-shadow: 0 0 0 1px hsla(0deg, 0%, 100%, 0);
+  -webkit-animation: errorPage-numberBox-border 3s ease-in-out infinite;
+  animation: errorPage-numberBox-border 3s ease-in-out infinite;
+  background: #8a6ff3;
+}
+.notfound-page .notfound-animation2,
+.notfound-page .notfound-animationbox2 {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.notfound-page .notfound-animation3,
+.notfound-page .notfound-animationbox3 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.notfound-page .absolute {
+  position: absolute;
+}
+.notfound-page .top-0 {
+  top: 0;
+}
+.notfound-page .left-0 {
+  left: 0;
+}
+.notfound-page .w-100 {
+  width: 100%;
+}
+.notfound-page .h-100 {
+  height: 100%;
+}
+.notfound-page .notfound-gradient {
+  background: radial-gradient(ellipse farthest-side, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0) 50%, #fafbfc 100%);
+}
+.notfound-page .notfound-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notfound-page .notfound-content h2 {
+  font-weight: 800;
+  font-size: 7rem;
+  color: #8a6ff3;
+}
+.notfound-page .notfound-content p {
+  font-size: 2rem;
+  color: var(--para-text);
+  line-height: 2;
+}
+.notfound-page .notfound-content button {
+  min-width: 170px;
+  height: 50px;
+  color: #fff;
+  font-weight: 400;
+  border: 1px solid transparent;
+  background: linear-gradient(100deg, #000000 30%, #9b743b);
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.notfound-page .notfound-content button a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+}
+.notfound-page .notfound-content button a i {
+  padding-right: 1rem;
+}
+
+@-webkit-keyframes errorPage-numberBox {
+  50% {
+    box-shadow: var(--numberBoxShadow);
+  }
+}
+
+@keyframes errorPage-numberBox {
+  50% {
+    box-shadow: var(--numberBoxShadow);
+  }
+}
+@-webkit-keyframes errorPage-numberBox-border {
+  50% {
+    box-shadow: var(--numberBoxBorder);
+    background: var(--numberBoxBackground);
+  }
+}
+@keyframes errorPage-numberBox-border {
+  50% {
+    box-shadow: var(--numberBoxBorder);
+    background: var(--numberBoxBackground);
+  }
+}
+@media (min-width: 320px) and (max-width: 599.98px) {
+  .notfound-page .notfound-color {
+    width: 100%;
+  }
+  .notfound-page .notfound-content h2 {
+    font-size: 4rem;
+  }
+}/*# sourceMappingURL=404.css.map */

@@ -1,0 +1,1015 @@
+.fintech-banner {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  background-image: url(../img/solutions/solution-bg/finance-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fintech-banner h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  color: var(--white);
+}
+.fintech-banner p {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin: 1rem 0;
+  color: var(--white);
+}
+.fintech-banner .content-section {
+  position: relative;
+  z-index: 1000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-white {
+  background-color: #f9f9f9 !important;
+}
+
+.solution-content h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.solution-content p {
+  color: var(--para-text);
+  line-height: 2.8rem;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+.solution-content .strip-divide {
+  display: inline-block;
+  width: 100%;
+}
+.solution-content .horizontal-ul {
+  display: inline-block;
+  width: 100%;
+  padding-left: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+.solution-content .horizontal-ul li {
+  display: inline-block;
+}
+.solution-content .horizontal-ul li p {
+  margin: 0;
+}
+.solution-content .horizontal-ul li img {
+  width: 80px;
+  height: auto;
+  padding: 0 2rem;
+}
+.solution-content .horizontal-ul li span {
+  font-weight: 800;
+}
+.solution-content .horizontal-ul .hidden-xs {
+  padding: 0 2rem;
+}
+.solution-content .horizontal-ul .hidden-xs p {
+  background: linear-gradient(113deg, #000000 30%, #FAFA33);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 800;
+  display: inline-block;
+}
+
+.solution-enhance {
+  background-color: var(--dark-text);
+}
+.solution-enhance .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.solution-enhance .enhance-title {
+  padding-right: 6rem;
+  padding-top: 10rem;
+}
+.solution-enhance .enhance-title h2 {
+  color: var(--white);
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 7rem;
+}
+.solution-enhance .enhance-title h2 span {
+  background: linear-gradient(90deg, #9b743b 30%, #FAFA33);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: inline-block;
+}
+.solution-enhance .enhance-title p {
+  font-size: 2rem;
+  color: #a7a7a7;
+  line-height: 4rem;
+  margin: 1rem 0;
+  text-align: justify;
+}
+.solution-enhance .enhance-top {
+  margin-top: 12rem;
+}
+.solution-enhance .enhance-card {
+  background: #212226;
+  border-radius: 10px;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease-out;
+  height: 100%;
+  border-bottom: 4px solid transparent;
+  -o-border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+     border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+  border-image-slice: 1;
+  width: 100%;
+}
+.solution-enhance .enhance-card .enhance-img img {
+  width: 60px;
+}
+.solution-enhance .enhance-card h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+  color: var(--white);
+}
+.solution-enhance .enhance-card p {
+  font-size: 16px;
+  line-height: 3rem;
+  color: #a7a7a7;
+}
+
+.solution-benefits .benefits-title {
+  background-color: transparent;
+  border: 0 !important;
+  padding: 0 !important;
+}
+.solution-benefits .benefits-title p {
+  color: var(--para-text);
+  line-height: 3.5rem !important;
+  margin: 1rem 0;
+  font-size: 1.8rem !important;
+}
+.solution-benefits h2 {
+  display: block;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 6rem;
+  color: var(--dark-text);
+  margin-bottom: 0rem;
+}
+.solution-benefits .rare-benefits h2 {
+  font-size: 5rem;
+  line-height: 7rem;
+}
+.solution-benefits .benefits-card {
+  display: block;
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  padding: 3rem;
+  border: 2px solid #f3f4fb;
+  height: 100%;
+}
+.solution-benefits .benefits-card h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  line-height: 3.5rem;
+  color: var(--dark-text);
+}
+.solution-benefits .benefits-card p {
+  font-size: 16px;
+  line-height: 3rem;
+  color: var(--para-text);
+}
+
+.solution-usecase {
+  background-color: #f3f3f5;
+}
+.solution-usecase .usecase-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-usecase .usecase-row {
+  flex-direction: row;
+  display: inline-flex;
+  align-items: inherit;
+}
+.solution-usecase h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.solution-usecase .usecase-card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 0 6px var(--white);
+  height: 100%;
+  border-bottom: 4px solid transparent;
+  -o-border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+     border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+  border-image-slice: 1;
+  width: 100%;
+}
+.solution-usecase .usecase-card .usecase-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 2px;
+  background-color: #f3f3f5;
+  text-align: center;
+  padding: 14px;
+  margin-bottom: 15px;
+}
+.solution-usecase .usecase-card .usecase-img img {
+  width: 30px;
+  height: 30px;
+}
+.solution-usecase .usecase-card h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  line-height: 3.5rem;
+  color: var(--dark-text);
+}
+.solution-usecase .usecase-card p {
+  font-size: 16px;
+  line-height: 3rem;
+  color: var(--para-text);
+}
+.solution-usecase .usecase-card ul {
+  margin-left: 2rem;
+}
+.solution-usecase .usecase-card ul li {
+  font-size: 16px;
+  line-height: 3rem;
+  padding: 0.5rem;
+  color: var(--para-text);
+}
+.solution-usecase .usecase-card ul li .fas {
+  color: #000000;
+  padding-right: 1rem;
+}
+
+.solution-product .product-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-product .product-title p {
+  color: var(--para-text);
+  line-height: 3.5rem;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+}
+.solution-product h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.solution-product .product-card {
+  padding: 2rem 1rem;
+}
+.solution-product .product-card .product-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  top: -27px;
+}
+.solution-product .product-card .product-header {
+  width: 100%;
+}
+.solution-product .product-card .product-line {
+  border-bottom: 2px solid var(--orange-color);
+  border-bottom: 4px solid transparent;
+  -o-border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+     border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+  border-image-slice: 1;
+  width: 100%;
+}
+.solution-product .product-card .product-img {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 0;
+  border: 4px solid transparent;
+  background: #fff;
+  background-clip: padding-box;
+  border-radius: 50px;
+}
+.solution-product .product-card .product-img::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+  background: linear-gradient(90deg, #FAFA33, #000000 91%);
+  z-index: -1;
+  border-radius: 50px;
+}
+.solution-product .product-card .product-img img {
+  width: 35px;
+  height: 35px;
+}
+.solution-product .product-card h3 {
+  font-weight: 600;
+  font-size: 2.3rem;
+  margin-top: 3rem;
+  line-height: 3.5rem;
+  color: var(--dark-text);
+  margin: 0;
+  padding-bottom: 1rem;
+  width: 83%;
+}
+.solution-product .product-card p {
+  font-size: 16px;
+  line-height: 3rem;
+  color: var(--para-text);
+  position: relative;
+  top: -22px;
+}
+
+.solution-application {
+  background-color: #f3f3f5;
+}
+.solution-application h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.solution-application .application-card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 0 6px var(--white);
+  height: 100%;
+  border-bottom: 4px solid transparent;
+  -o-border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+     border-image: linear-gradient(90deg, #000000 30%, #FAFA33);
+  border-image-slice: 1;
+  width: 100%;
+  text-align: center;
+}
+.solution-application .application-card .application-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 2px;
+  background-color: #f3f3f5;
+  text-align: center;
+  padding: 14px;
+  margin-bottom: 15px;
+}
+.solution-application .application-card .application-img img {
+  width: 30px;
+  height: 30px;
+}
+.solution-application .application-card h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  line-height: 3.5rem;
+  color: var(--dark-text);
+}
+.solution-application .application-card .app-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.solution-table .table-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-table h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.solution-table tr {
+  background-color: #f7f5ff;
+  border: 1px solid #000000;
+}
+.solution-table td {
+  padding: 2rem 2rem;
+  font-size: 16px;
+  line-height: 3rem;
+  color: var(--para-text);
+}
+.solution-table th {
+  text-align: center;
+  padding: 2rem 2rem;
+  font-size: 1.8rem;
+}
+.solution-table .fas {
+  color: #000000;
+  padding-right: 1rem;
+}
+.solution-table table th:first-child,
+.solution-table table td:first-child {
+  border-right: 1px solid #000000;
+}
+
+.solution-unique .unique-title,
+.solution-unique .list-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-unique h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.solution-unique .unique-list .unique-card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 0 6px var(--white);
+  height: 100%;
+  border: 2px solid #ebefff;
+  min-height: 300px;
+}
+.solution-unique .unique-list .unique-card h3 {
+  background: linear-gradient(90deg, #000000 30%, #FAFA33);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 800;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+.solution-unique .unique-list .unique-card ul li {
+  padding: 1rem 2rem;
+  font-size: 16px;
+  line-height: 3rem;
+  color: var(--para-text);
+}
+.solution-unique .unique-list .unique-card ul li .fas {
+  color: #000000;
+  padding-right: 1rem;
+}
+
+.solution-gradient .gradient-title,
+.solution-gradient .gradient-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-gradient h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.solution-gradient .graident-card {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#FAFA33));
+  background-image: -o-linear-gradient(top left, #000000, #FAFA33);
+  background-image: linear-gradient(to bottom right, #000000, #FAFA33);
+  color: var(--white);  border-radius: 10px;
+  padding: 4rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 3s ease-in-out;
+  color: #fff;
+  height: 100%;
+}
+.solution-gradient .graident-card h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+  color: var(--white);
+}
+.solution-gradient .graident-card p {
+  font-size: 16px;
+  line-height: 3rem;
+}
+
+.solution-strategy .strategy-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-strategy .strategy-title p {
+  color: var(--para-text);
+  line-height: 3.5rem;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+}
+.solution-strategy h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.solution-strategy .strategy-card {
+  display: block;
+  height: 100%;
+  border-radius: 1px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 2rem;
+  border: 1px solid #ededed;
+  border-bottom: 5px solid var(--dark-text);
+  height: 100%;
+}
+.solution-strategy .strategy-card h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+}
+.solution-strategy .strategy-card p {
+  font-size: 16px;
+  line-height: 3rem;
+}
+
+.social-media-points h2 {
+  font-size: 4rem;
+  line-height: 5.5rem;
+}
+
+.solution-points li {
+  list-style-type: disc;
+  margin: 0 0 20px 20px;
+}
+
+.reward-system {
+  background-color: #f3f3f5;
+}
+.reward-system .benefits-card {
+  background-color: #fff;
+}
+
+.poc-dev #progress-bar-container ul li {
+  width: 16% !important;
+}
+
+@media only screen and (min-width: 1600px) {
+  .container-sm {
+    min-width: 70% !important;
+    max-width: 70% !important;
+  }
+}
+#progress-bar-container ul li {
+  width: 20% !important;
+}
+
+.solution-industry {
+  background-color: var(--dark-text);
+}
+.solution-industry .center-heading {
+  background-image: radial-gradient(circle, var(--dark-text) -4%, rgba(24, 24, 24, 0) 139%);
+}
+.solution-industry .center-heading h2 {
+  color: var(--white);
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 7rem;
+}
+.solution-industry .center-heading h2 span {
+  background: linear-gradient(90deg, #000000 30%, #FAFA33);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 800;
+  display: inline-block;
+}
+.solution-industry .industry-card {
+  background: #212226;
+  border-radius: 10px;
+  padding: 3rem;
+  transition: all 0.5s ease-out;
+  height: 100%;
+}
+.solution-industry .industry-card img {
+  width: 80px;
+}
+.solution-industry .industry-card h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+  color: var(--white);
+}
+.solution-industry .industry-card p {
+  font-size: 16px;
+  line-height: 3rem;
+  color: #a7a7a7;
+}
+
+.digital-identity .benefits-card {
+  display: block;
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  padding: 3rem;
+  border: 2px solid #f3f4fb;
+  height: 100%;
+  background-color: #f3f3f5;
+}
+.digital-identity .benefits-card p {
+  font-size: 16px;
+  line-height: 3rem;
+  color: var(--para-text);
+}
+.digital-identity .benefits-card h3 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  line-height: 3.5rem;
+  color: var(--dark-text);
+}
+.digital-identity .benefits-card img {
+  width: 80px;
+  padding-bottom: 20px;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.pb-2 {
+  padding-bottom: 20px !important;
+}
+
+.healthcare-bg {
+  background-image: url(../img/solutions/solution-bg/healthcare-banner.jpg) !important;
+}
+
+.insurance-banner {
+  background-image: url(../img/solutions/solution-bg/insurance-banner.jpg) !important;
+}
+
+.realestate-banner {
+  background-image: url(../img/solutions/solution-bg/real-estate-banner.jpg) !important;
+}
+
+.iot-bg {
+  background-image: url(../img/solutions/solution-bg/iot-banner.jpg);
+}
+
+.e-commerce-bg {
+  background-image: url(../img/solutions/solution-bg/e-commerce-banner.jpg);
+}
+
+.gaming-bg {
+  background-image: url(../img/solutions/solution-bg/gaming-banner.jpg);
+}
+
+.voting-bg {
+  background-image: url(../img/solutions/solution-bg/voting-banner.jpg);
+}
+
+.d-asset-bg {
+  background-image: url(../img/solutions/solution-bg/digital-records-banner.jpg);
+}
+
+.gateway-bg {
+  background-image: url(../img/solutions/solution-bg/cryptocurrency-development.jpg) !important;
+}
+
+.digitalcertificates-bg {
+  background-image: url(../img/solutions/solution-bg/blockchain-certification-banner.jpg);
+}
+
+.dapps-bg {
+  background-image: url(../img/services-banner/Dapps-fullview.jpg);
+}
+
+.blockchain-bg {
+  background-image: url(../img/services-banner/Blockchain-development-services.jpg);
+}
+
+.supply-banner {
+  background-image: url(../img/solutions/solution-bg/supply-chain-banner.jpg) !important;
+}
+
+.ai-banner {
+  background-image: url(../img/solutions/solution-bg/ai-banner.jpg) !important;
+}
+
+.identity-banner {
+  background-image: url(../img/solutions/solution-bg/digital-identity-banner.jpg) !important;
+}
+
+.social-banner {
+  background-image: url(../img/solutions/solution-bg/social-media-banner.jpg) !important;
+}
+
+.audit-banner {
+  background-image: url(../img/solutions/solution-bg/smart-contract-audit-banner.jpg) !important;
+}
+
+.poc-banner {
+  background-image: url(../img/solutions/solution-bg/poc-banner.jpg) !important;
+}
+
+.smart-banner {
+  background-image: url(../img/services-banner/Smart-contract-services.jpg) !important;
+}
+
+.consulting-banner {
+  background-image: url(../img/services-banner/Blockchain-consulting-services.jpg) !important;
+}
+.consulting-banner .content-section {
+  z-index: 1000;
+  position: relative;
+}
+
+.mobile-banner {
+  background-image: url(../img/solutions/solution-bg/mobile-app-banner.jpg);
+}
+
+.ico-banner {
+  background-image: url(../img/services-banner/ICO-development-services_1.jpg);
+}
+
+.marketing-banner {
+  background-image: url(../img/solutions/solution-bg/ico-marketing-banner.jpg);
+}
+
+.ieo-banner {
+  background-image: url(../img/solutions/solution-bg/ieo-development-banner.jpg);
+}
+
+.nft-banner {
+  background-image: url(../img/services-banner/NFT-Development-services.jpg) !important;
+}
+
+.fungible-banner {
+  background-image: url(../img/solutions/solution-bg/nft-banner.jpg);
+}
+
+@media (min-width: 320px) and (max-width: 599.98px) {
+  .fintech-banner h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .fintech-banner p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .fintech-banner {
+    height: 70vh;
+  }
+  .solution-content h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .solution-content p {
+    font-size: 16px;
+    line-height: 3rem;
+    text-align: left;
+  }
+  .solution-content .horizontal-ul li {
+    display: block;
+  }
+  .solution-content .horizontal-ul li p {
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+  }
+  .solution-application h2,
+.social-media-points h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .solution-application p,
+.social-media-points p {
+    font-size: 16px;
+    line-height: 3rem;
+    text-align: left;
+  }
+  .solution-industry h2 {
+    font-size: 3.5rem !important;
+    line-height: 4.5rem !important;
+    margin-bottom: 3rem;
+  }
+  .solution-industry p {
+    font-size: 16px;
+    line-height: 3rem;
+    text-align: left;
+  }
+  .solution-enhance .sticky {
+    position: relative;
+  }
+  .solution-enhance .enhance-title {
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+  .solution-enhance .enhance-title h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .solution-enhance .enhance-title p {
+    font-size: 16px;
+    line-height: 3rem;
+    text-align: left;
+  }
+  .solution-enhance .enhance-card h3 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+  .solution-enhance .enhance-top {
+    margin-top: 0;
+  }
+  .solution-benefits h2,
+.solution-benefits .rare-benefits h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+  }
+  .solution-benefits .benefits-card h3 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+  .solution-usecase h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+  }
+  .solution-usecase .usecase-card h3 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+  .solution-product h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 3rem;
+  }
+  .solution-product .product-card h3 {
+    font-size: 2.3rem;
+  }
+  .solution-product .mb-2 {
+    margin-bottom: 0;
+  }
+}
+.about-us ul li {
+  list-style-type: circle !important;
+  line-height: 30px;
+  padding-bottom: 7px;
+}
+.about-us ul li:last-child {
+  padding-bottom: 0px;
+}
+
+@media (min-width: 600px) and (max-width: 991.98px) {
+  .fintech-banner h1 {
+    font-size: 4.5rem;
+  }
+  .solution-content h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  .solution-enhance .sticky {
+    position: relative;
+  }
+  .solution-enhance .enhance-title {
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+  .solution-enhance .enhance-title h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  .solution-enhance .enhance-top {
+    margin-top: 0;
+  }
+  .solution-application h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .solution-application p {
+    font-size: 16px;
+    line-height: 3rem;
+    text-align: left;
+  }
+  .solution-industry h2 {
+    font-size: 4rem !important;
+    line-height: 6rem !important;
+    margin-bottom: 3rem;
+  }
+  .solution-industry p {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .solution-benefits h2,
+.solution-benefits .rare-benefits h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+    margin-bottom: 3rem;
+  }
+  .solution-usecase h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  .solution-product h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  .hidden-xs {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .fintech-banner h1 {
+    font-size: 6rem;
+  }
+  .solution-content h2 {
+    font-size: 4.3rem;
+  }
+  .solution-enhance .enhance-title {
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+  }
+  .solution-enhance .enhance-title h2 {
+    font-size: 4.3rem;
+    line-height: 6rem;
+  }
+  .solution-benefits h2 {
+    font-size: 4.3rem;
+    line-height: 6rem;
+  }
+  .solution-usecase h2 {
+    font-size: 4.3rem;
+    line-height: 6rem;
+  }
+  .solution-product h2 {
+    font-size: 4.3rem;
+    line-height: 6rem;
+  }
+  .solution-industry .center-heading h2 {
+    margin-bottom: 5rem;
+  }
+}
+.translated-rtl .solution-gradient .graident-card h3 {
+  text-align: right;
+}
+.translated-rtl .solution-gradient .graident-card p {
+  text-align: right;
+}
+.translated-rtl .solution-usecase .usecase-card {
+  direction: rtl;
+}/*# sourceMappingURL=solution.css.map */

@@ -1,0 +1,185 @@
+:root {
+  --numberBoxShadow: 0px 70px 65px rgba(0, 0, 0, 0.039),
+    0px 30px 30px rgba(0, 0, 0, 0.037), 0px 15px 15px rgba(0, 0, 0, 0.036),
+    0px 10px 8px rgba(0, 0, 0, 0.035), 0px 4px 4px rgba(0, 0, 0, 0.034),
+    0px 2px 2px rgba(0, 0, 0, 0.033);
+  --numberBoxBorder: 0 0 0 1px hsla(0, 0%, 100%, 0.6);
+  --numberBoxBackground: #fff;
+}
+
+.success-page {
+  padding-top: 11rem;
+  background-color: #fafbfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.success-page .success-color {
+  background-color: #8467f3;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+.success-page .success-grid {
+  display: grid;
+}
+.success-page .grid-flow-col {
+  grid-auto-flow: column;
+}
+.success-page .gap-px {
+  gap: 1px;
+}
+.success-page .mb-01 {
+  margin-bottom: 1px;
+}
+.success-page .bg-color {
+  background-color: #fff;
+}
+.success-page .pb-100 {
+  padding-bottom: 100%;
+}
+.success-page .z-10 {
+  z-index: 10;
+}
+.success-page .success-animation {
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+  -webkit-animation: errorPage-numberBox 7s ease-in-out infinite;
+  animation: errorPage-numberBox 7s ease-in-out infinite;
+}
+.success-page .success-animationbox {
+  box-shadow: 0 0 0 1px hsla(0deg, 0%, 100%, 0);
+  -webkit-animation: errorPage-numberBox-border 7s ease-in-out infinite;
+  animation: errorPage-numberBox-border 7s ease-in-out infinite;
+  background: #8a6ff3;
+}
+.success-page .success-animation,
+.success-page .success-animationbox {
+  -webkit-animation-delay: 7s;
+  animation-delay: 7s;
+}
+.success-page .success-animation2,
+.success-page .success-animationbox2 {
+  -webkit-animation-delay: 7.5s;
+  animation-delay: 7.5s;
+}
+.success-page .success-animation3,
+.success-page .success-animationbox3 {
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+}
+.success-page .success-animation4,
+.success-page .success-animationbox4 {
+  -webkit-animation-delay: 8.5s;
+  animation-delay: 8.5s;
+}
+.success-page .success-animation5,
+.success-page .success-animationbox5 {
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+}
+.success-page .success-animation6,
+.success-page .success-animationbox6 {
+  -webkit-animation-delay: 9.5s;
+  animation-delay: 9.5s;
+}
+.success-page .success-animation7,
+.success-page .success-animationbox7 {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+.success-page .absolute {
+  position: absolute;
+}
+.success-page .top-0 {
+  top: 0;
+}
+.success-page .left-0 {
+  left: 0;
+}
+.success-page .w-100 {
+  width: 100%;
+}
+.success-page .h-100 {
+  height: 100%;
+}
+.success-page .success-gradient {
+  background: radial-gradient(ellipse farthest-side, rgba(250, 251, 252, 0) 0%, rgba(250, 251, 252, 0) 50%, #fafbfc 100%);
+}
+.success-page .success-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+.success-page .success-content .success-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  /* margin: 0 auto; */
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.success-page .success-content .success-icon i {
+  color: var(--white);
+  font-size: 4rem;
+}
+.success-page .success-content p {
+  font-size: 2rem;
+  color: var(--para-text);
+  line-height: 2;
+}
+.success-page .success-content button {
+  min-width: 170px;
+  height: 50px;
+  color: #fff;
+  font-weight: 400;
+  border: 1px solid transparent;
+  background: linear-gradient(100deg, #000000 30%, #FAFA33);
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.success-page .success-content button a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+}
+.success-page .success-content button a i {
+  padding-right: 1rem;
+}
+
+@-webkit-keyframes errorPage-numberBox {
+  50% {
+    box-shadow: var(--numberBoxShadow);
+  }
+}
+
+@keyframes errorPage-numberBox {
+  50% {
+    box-shadow: var(--numberBoxShadow);
+  }
+}
+@-webkit-keyframes errorPage-numberBox-border {
+  50% {
+    box-shadow: var(--numberBoxBorder);
+    background: var(--numberBoxBackground);
+  }
+}
+@keyframes errorPage-numberBox-border {
+  50% {
+    box-shadow: var(--numberBoxBorder);
+    background: var(--numberBoxBackground);
+  }
+}/*# sourceMappingURL=success.css.map */

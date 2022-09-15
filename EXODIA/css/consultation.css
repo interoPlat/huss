@@ -1,0 +1,273 @@
+.container {
+  max-width: 1170px !important;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.bg-grey {
+  background-color: black ;
+  background: url(../img/Exodia\ Logos/ss2.png) top -1px center;
+  background-color: #F4F7FB;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pt-5 {
+  padding-top: 50px;
+}
+
+.banner-section {
+  height: 100vh;
+}
+
+.bg-image {
+  background-image: url(../img/consultation/images.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-image h1,
+.bg-image p {
+  color: #000000;
+}
+
+.team-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-content h2 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 7rem;
+}
+.team-content p {
+  color: white;
+  line-height: 3.5rem;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.experts {
+  height: 100%;
+}
+
+#team .card {
+  border: none;
+}
+#team .experts .card {
+  min-height: 100%;
+}
+#team .card-spacing {
+  padding: 20px 20px;
+}
+#team .experts .card .card-body {
+  padding: 60px 30px;
+}
+#team .experts .card .card-body .card-title {
+  font-weight: bold;
+  color: white;
+
+}
+#team .experts .card .card-body i {
+  font-size: 3.5rem;
+}
+#team .card-body img {
+  border-radius: 50%;
+  width: 60%;
+  background-color: white;
+}
+
+#form .lets-talk {
+  padding: 80px 0;
+}
+#form .lets-talk span {
+  background: linear-gradient(90deg, #000000 30%, #FAFA33);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 900;
+}
+#form .contact-form-md {
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  margin: 0 auto;
+}
+#form .contact-form-md .g-recaptcha {
+  padding: 20px 0;
+}
+#form .contact-form-md h2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 7rem;
+  padding: 20px 0;
+  color: #fff;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#form .contact-form-md .button-form {
+  background: transparent;
+  border: 2px solid var(--orange-color);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+#form .contact-form-md input {
+  display: block;
+  border-radius: 5px;
+  border: none;
+  background: #2d2e36;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  width: 100%;
+  padding: 25px 16px;
+}
+#form .contact-form-md textarea {
+  display: block;
+  border-radius: 5px;
+  border: none;
+  min-height: 150px;
+  background: #2d2e36;
+  font-size: 13px;
+  font-weight: 600;
+  width: 100%;
+  padding: 12px 16px;
+  margin: 15px 0;
+  color: #fff;
+}
+#form .contact-form-md textarea textarea#message {
+  min-height: 100px !important;
+}
+
+iframe.calendly-inline-widget {
+  min-width: 600px;
+  height: 579px;
+  background-color: #2d2e36;
+  z-index: 10000;
+}
+
+.yB2Kbs3Dw5W8t3rtYGUC.iI5fcRo4gq4qDPNtSDOI {
+  background-color: #2d2e36;
+}
+
+.test ul {
+  padding-left: 20px;
+}
+.test ul li {
+  list-style-type: disc;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .inner-container {
+    min-width: 90%;
+    max-width: 90%;
+  }
+  .banner-section h1 {
+    font-size: 3.5rem;
+  }
+  #form .contact-form-md {
+    padding: 20px 0px;
+    height: auto;
+    width: auto;
+  }
+  #form .contact-form-md h2 {
+    font-size: 2.8rem;
+    line-height: 4rem;
+    padding-top: 0px !important;
+  }
+  iframe.calendly-inline-widget {
+    min-width: 100%;
+    min-height: 600px;
+    height: auto;
+    touch-action: auto;
+  }
+  .team-content h2 {
+    font-size: 2.8rem;
+  }
+  .team-content p {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .inner-container {
+    min-width: 90%;
+    max-width: 90%;
+  }
+  .banner-section h1 {
+    font-size: 4.5rem;
+  }
+  #form .contact-form-md {
+    padding: 40px 40px;
+    height: auto;
+    width: auto;
+  }
+  #form .contact-form-md h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    padding-top: 0px;
+  }
+  iframe.calendly-inline-widget {
+    min-width: 400px;
+    min-height: 600px;
+    height: auto;
+    touch-action: auto;
+  }
+  .team-content h2 {
+    font-size: 2.8rem;
+  }
+  .team-content p {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .inner-container {
+    min-width: 90%;
+    max-width: 90%;
+  }
+  .banner-section h1 {
+    font-size: 5rem;
+  }
+  #form .contact-form-md {
+    padding: 40px 80px;
+  }
+  #form .contact-form-md h2 {
+    font-size: 5rem;
+  }
+  iframe.calendly-inline-widget {
+    min-width: 600px;
+    height: 720px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #team .card-spacing {
+    padding: 10px 10px;
+  }
+  #team .experts .card {
+    min-height: 432px;
+  }
+  #form .contact-form-md {
+    padding: 20px 20px;
+  }
+  #form .contact-form-md h2 {
+    font-size: 5rem;
+  }
+  iframe.calendly-inline-widget {
+    min-width: 380px;
+    height: 720px;
+  }
+}/*# sourceMappingURL=consultation.css.map */

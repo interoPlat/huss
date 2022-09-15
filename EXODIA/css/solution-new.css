@@ -1,0 +1,637 @@
+@media only screen and (min-width: 1600px) {
+  .container-sm {
+    min-width: 70% !important;
+    max-width: 70% !important;
+  }
+}
+.bg-light {
+  background-color: #f5f5f5;
+}
+
+.py-15 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.section-title h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+}
+
+/*slider section*/
+.financial-bg {
+  background-image: url(../img/solutions/solution-bg/finance-banner.jpg);
+}
+
+.ecommerce-bg {
+  background-image: url(../img/solutions/solution-bg/e-commerce-banner.jpg);
+}
+
+.education-bg {
+  background-image: url(../img/solutions/Solutions_education.jpg);
+}
+
+.insurance-bg {
+  background-image: url(../img/solutions/solution-bg/insurance-bg.jpg);
+}
+
+.healthcare-bg {
+  background-image: url(../img/solutions/solution-bg/healthcare-bg.jpg);
+}
+
+.supplychain-bg {
+  background-image: url(../img/solutions/solution-bg/supplychain-bg.jpg);
+}
+
+.reward-bg {
+  background-image: url(../img/solutions/solution-bg/rewards-bg.jpg);
+}
+
+.socialmedia-bg {
+  background-image: url(../img/solutions/solution-bg/social-media-bg.jpg);
+}
+
+.digital-identity-bg {
+  background-image: url(../img/solutions/solution-bg/digital-identity-bg.jpg);
+}
+
+.slide-banner {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slide-banner h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  color: var(--white);
+}
+.slide-banner p {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin: 1rem 0;
+  color: var(--white);
+}
+.slide-banner .content-section {
+  position: relative;
+  z-index: 1000;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.solution-content h2 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+.solution-content p {
+  font-size: 16px;
+  line-height: 3rem;
+  text-align: left;
+}
+.solution-content .horizontal-ul li {
+  display: block;
+}
+.solution-content .horizontal-ul li p {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+}
+
+/*about section*/
+.aboutsection h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.aboutsection p {
+  color: var(--para-text);
+  line-height: 2.8rem;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+.aboutsection .second-bg img {
+  width: auto;
+  border-radius: 2rem;
+}
+.aboutsection .nftbg-grid {
+  --tw-gradient-to: transparent;
+  --tw-gradient-from: #a18bf5;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, hsla(0, 0%, 100%, 0));
+  background-image: radial-gradient(closest-side, var(--tw-gradient-stops));
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+.aboutsection .nftbg-grid .nftinner-grid {
+  background: url(../img/about-us/about-grid.svg) top -1px center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.aboutsection .aboutbtn {
+  min-width: 170px;
+  height: 50px;
+  color: #fff;
+  font-weight: 400;
+  border: 1px solid transparent;
+  background: linear-gradient(100deg, #000000 30%, #9b743b);
+  font-size: 16px;
+  line-height: 35px;
+}
+.aboutsection .aboutbtn:focus {
+  border: none !important;
+}
+.aboutsection .aboutbtn:hover {
+  background: #9b743b;
+  color: #fff;
+}
+.aboutsection .aboutbtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.enhanced-solutions {
+  background-color: var(--dark-text);
+}
+.enhanced-solutions .section-title h2 {
+  color: var(--white);
+}
+.enhanced-solutions .section-title p {
+  font-size: 2rem;
+  color: #a7a7a7;
+  line-height: 4rem;
+  margin: 1rem 0;
+}
+.enhanced-solutions .enhanced-card {
+  padding: 3rem;
+}
+.enhanced-solutions .enhanced-card h3 {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0;
+  line-height: 37px;
+  margin: 1rem 0;
+}
+.enhanced-solutions .enhanced-card p {
+  font-size: 16px;
+  color: white;
+  line-height: 30px;
+  margin: 1rem 0;
+}
+.enhanced-solutions .enhanced-card .card-gif img {
+  width: 150px;
+  height: 150px;
+}
+
+/*benefits section*/
+.benefits-solution .benefits-gradient {
+  background: linear-gradient(178deg, rgba(119, 90, 234, 0.4196078431), rgba(255, 98, 71, 0.4196078431));
+  border-radius: 2rem;
+  padding: 3rem 0;
+  position: relative;
+}
+.benefits-solution .benefits-bg {
+  position: absolute;
+  right: 87px;
+  top: -56px;
+}
+.benefits-solution .benefits-list {
+  padding: 0 3rem 3rem 0;
+}
+.benefits-solution .benefits-list h3 {
+  color: #41374E;
+  font-size: 21px;
+  margin: 0;
+  line-height: 37px;
+  margin: 1rem 0;
+  font-weight: 800;
+}
+.benefits-solution .benefits-list p {
+  font-size: 16px;
+  color: var(--dark-text);
+  line-height: 30px;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+/*finacial solutions scss*/
+.finacial-solutions {
+  background-image: url("../img/solutions/soluiton-icons/office-back.jpg");
+  width: 100%;
+  background-size: cover;
+}
+.finacial-solutions .section-para p {
+  font-size: 2rem;
+  color: var(--white);
+  line-height: 4rem;
+  margin: 1rem 0;
+}
+.finacial-solutions .card {
+  margin-bottom: 3rem;
+}
+.finacial-solutions .finacial-list {
+  background-color: #323339;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  padding: 4px;
+  color: var(--white);
+  padding: 3rem;
+  height: 100%;
+  margin-bottom: 3rem;
+}
+.finacial-solutions .finacial-list .line {
+  background-color: #333;
+  position: absolute;
+}
+.finacial-solutions .finacial-list .line span {
+  background-color: #e3e3e3;
+  position: inherit;
+  display: block;
+  transition: all 0.4s ease-out;
+}
+.finacial-solutions .finacial-list .line-top {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+.finacial-solutions .finacial-list .line-top span {
+  top: inherit;
+  left: inherit;
+  width: 0;
+  height: 100%;
+}
+.finacial-solutions .finacial-list .line-right {
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+}
+.finacial-solutions .finacial-list .line-right span {
+  top: inherit;
+  right: inherit;
+  width: 100%;
+  height: 0;
+}
+.finacial-solutions .finacial-list .line-bottom {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+}
+.finacial-solutions .finacial-list .line-bottom span {
+  right: inherit;
+  bottom: inherit;
+  width: 0;
+  height: 100%;
+}
+.finacial-solutions .finacial-list .line-left {
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  height: 100%;
+}
+.finacial-solutions .finacial-list .line-left span {
+  left: inherit;
+  bottom: inherit;
+  width: 100%;
+  height: 0;
+}
+.finacial-solutions .finacial-list:hover .line-top span {
+  width: 100%;
+}
+.finacial-solutions .finacial-list:hover .line-bottom span {
+  width: 100%;
+}
+.finacial-solutions .finacial-list:hover .line-left span {
+  height: 100%;
+}
+.finacial-solutions .finacial-list:hover .line-right span {
+  height: 100%;
+}
+.finacial-solutions .finacial-list .finacial-content .finacial-img {
+  display: inline-flex;
+  margin-bottom: 1rem;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.finacial-solutions .finacial-list .finacial-content h3 {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0;
+  line-height: 37px;
+  margin: 1rem 0;
+}
+.finacial-solutions .finacial-list .finacial-content p {
+  font-size: 16px;
+  color: white;
+  line-height: 30px;
+  margin: 1rem 0;
+}
+
+/*end finacial scss*/
+/*business card*/
+/*end business card*/
+.gaming-bg {
+  background-image: url(../img/solutions/solution-bg/gaming-banner.jpg);
+}
+
+/*other css*/
+.section-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 43px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.card {
+  background-color: hsl(230deg, 6%, 21%);
+  color: var(--white);
+  padding: 3rem;
+  height: 100%;
+}
+.card h3 {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0;
+  line-height: 37px;
+  margin: 1rem 0;
+}
+.card p {
+  font-size: 16px;
+  color: white;
+  line-height: 30px;
+  margin: 1rem 0;
+}
+.card__img {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.section-aside-img {
+  background-image: url(../img/solutions/fintech/closeup-shot-lit-large-lightbulb-with-blurred-background.html);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-aside-img::before {
+  content: "";
+  background-image: url(../img/solutions/fintech/Group-244.html);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -120px;
+  left: -93px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+#estatecorner {
+  position: absolute;
+  right: 0px;
+  width: 0;
+  height: 0;
+  bottom: 0px;
+}
+
+#estatecorner.house::after {
+  position: absolute;
+  width: 190px;
+  height: 232px;
+  background-image: url(../img/solutions/fintech/Group-244.html);
+  content: " ";
+  bottom: -97px;
+  z-index: -1;
+  right: -18px;
+  background-repeat: no-repeat;
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+}
+
+.row-justify {
+  display: flex;
+  justify-content: center;
+}
+
+.wedo-solutions {
+  background-color: #f3f3f5;
+}
+.wedo-solutions .section-title {
+  margin-bottom: 3rem;
+}
+.wedo-solutions .section-title h2 {
+  display: block;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 7rem;
+  color: var(--dark-text);
+  margin-bottom: 3rem;
+}
+.wedo-solutions .section-title p {
+  font-size: 2rem;
+  color: var(--dark-text);
+  line-height: 4rem;
+  /* margin: 1rem 0; */
+  text-align: center;
+}
+.wedo-solutions .wedo-card {
+  background-color: var(--white);
+  color: var(--dark-text);
+  padding: 3rem;
+  border-radius: 2rem;
+  height: 100%;
+}
+.wedo-solutions .wedo-card .card-img {
+  display: inline-flex;
+  margin-bottom: 1rem;
+  text-align: left;
+  position: relative;
+  left: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.wedo-solutions .wedo-card h3 {
+  color: var(--dark-text);
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0;
+  line-height: 37px;
+  margin: 1rem 0;
+}
+.wedo-solutions .wedo-card p {
+  font-size: 16px;
+  color: var(--dark-text);
+  line-height: 30px;
+  margin: 1rem 0;
+}
+
+.card-img img {
+  width: auto;
+}
+
+.finacial-img img {
+  width: auto;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  .slide-banner {
+    height: 70vh;
+  }
+  .slide-banner h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .slide-banner p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .aboutsection h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .aboutsection .second-bg {
+    display: none;
+  }
+  .enhanced-solutions .section-title h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .enhanced-solutions .section-title p {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .enhanced-solutions .enhanced-card {
+    padding: 1rem;
+  }
+  .finacial-solutions h2 {
+    margin-bottom: 0;
+  }
+  .finacial-solutions .section-para {
+    padding-top: 0;
+  }
+  .finacial-solutions .section-para p {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .finacial-solutions .row-flex {
+    display: block;
+  }
+  .wedo-solutions .section-title {
+    margin-bottom: 0rem;
+  }
+  .wedo-solutions .section-title h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 0rem;
+  }
+  .wedo-solutions .section-title p {
+    font-size: 16px;
+    line-height: 3rem;
+  }
+  .section-title h2 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .benefits-solution .benefits-bg {
+    display: none;
+  }
+  .benefits-solution.py-15 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .finacial-solutions .card {
+    margin-bottom: 0;
+  }
+  .finacial-solutions .col-sm-6 {
+    margin-bottom: 3rem;
+  }
+  .benefits-solution .benefits-bg {
+    right: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .aboutsection .second-bg img {
+    width: 100%;
+  }
+}
+.translated-rtl .enhanced-solutions .enhanced-card h3 {
+  text-align: right;
+}
+.translated-rtl .enhanced-solutions .enhanced-card p {
+  text-align: right;
+}
+.translated-rtl .section-title h2 {
+  direction: rtl;
+  text-align: right;
+}
+.translated-rtl .benefits-solution {
+  direction: rtl;
+}
+.translated-rtl .benefits-solution .benefits-list h3 {
+  text-align: right;
+}
+.translated-rtl .benefits-solution .benefits-list p {
+  text-align: right;
+}
+.translated-rtl .finacial-solutions .finacial-list .finacial-content h3 {
+  text-align: right;
+}
+.translated-rtl .finacial-solutions .finacial-list .finacial-content p {
+  text-align: right;
+}
+.translated-rtl .finacial-solutions .section-para p {
+  text-align: right;
+}
+.translated-rtl .wedo-solutions .wedo-card {
+  direction: rtl;
+}
+.translated-rtl .wedo-solutions .wedo-card h3 {
+  direction: rtl;
+}
+.translated-rtl .wedo-solutions .wedo-card p {
+  direction: rtl;
+}
+.translated-rtl .wedo-solutions .section-title p {
+  text-align: right;
+}
+.translated-rtl .enhanced-solutions .section-title {
+  direction: rtl;
+}
+.translated-rtl .enhanced-solutions .section-title h2 {
+  text-align: right;
+}/*# sourceMappingURL=solution-new.css.map */

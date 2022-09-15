@@ -1,0 +1,299 @@
+.devlop-approach .container-small {
+  min-width: 65%;
+  max-width: 65%;
+}
+.devlop-approach .develop-listwrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+.devlop-approach .develop-listwrap:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.devlop-approach .develop-listwrap:nth-child(even) p {
+  text-align: right;
+}
+.devlop-approach .develop-listwrap:nth-child(even) .center-list::after {
+  transform: scaleX(-1);
+  left: 15px;
+}
+.devlop-approach .develop-listwrap:nth-child(even) .left-list {
+  justify-content: start;
+}
+.devlop-approach .develop-listwrap:nth-child(even) .left-list h4 {
+  left: 0;
+}
+.devlop-approach .develop-listwrap:nth-child(even) .left-list h3 {
+  left: 10px;
+}
+.devlop-approach .develop-listwrap:nth-child(even) .circle-img {
+  transform: scaleX(-1);
+}
+.devlop-approach .develop-listwrap:last-child .center-list::after {
+  display: none;
+}
+.devlop-approach .flex-width {
+  flex-basis: 35%;
+  position: relative;
+}
+.devlop-approach .left-list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+.devlop-approach .left-list h4 {
+  font-size: 9rem;
+  font-weight: 900;
+  position: relative;
+  color: #dfdfdf;
+  left: -10px;
+  margin: 0;
+}
+.devlop-approach .left-list h3 {
+  font-size: 3.3rem;
+  font-weight: 800;
+  position: relative;
+  margin: 0;
+}
+.devlop-approach .center-list {
+  display: flex;
+  margin: 0 auto;
+  flex-basis: 30%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.devlop-approach .center-list img {
+  width: 70px;
+  margin: 0 auto;
+}
+.devlop-approach .center-list .circle-img {
+  position: absolute;
+}
+.devlop-approach .center-list .circle-img img {
+  width: 150px;
+}
+.devlop-approach .center-list::after {
+  content: "";
+  background-image: url(../img/develop-app/arrow.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  width: 61px;
+  height: 100%;
+  z-index: 4;
+  bottom: -142px;
+  right: 26px;
+  background-size: contain;
+}
+.devlop-approach .right-list p {
+  color: var(--dark-text);
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-weight: 500;
+  background-color: #fff;
+}
+.devlop-approach .progressbar {
+  display: inline-block;
+  width: 200px;
+}
+.devlop-approach .circlep {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.devlop-approach .circlep .circlep-img {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.devlop-approach .circlep canvas {
+  vertical-align: middle;
+}
+
+.animatable {
+  /* initially hide animatable objects */
+  visibility: hidden;
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animated.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .devlop-approach .text-gradient {
+    display: initial;
+  }
+  .devlop-approach .container-small {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .devlop-approach .develop-listwrap {
+    display: block;
+    margin-top: 5rem;
+  }
+  .devlop-approach .develop-listwrap:nth-child(even) p {
+    text-align: center;
+  }
+  .devlop-approach .develop-listwrap:nth-child(even) .left-list h4 {
+    left: -10px;
+  }
+  .devlop-approach .left-list {
+    justify-content: center !important;
+    margin-bottom: 3rem;
+    margin-right: 20px;
+  }
+  .devlop-approach .left-list h4 {
+    left: -10px;
+    font-size: 4rem;
+  }
+  .devlop-approach .left-list h3 {
+    left: 0 !important;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .devlop-approach .center-list {
+    margin-bottom: 3rem;
+  }
+  .devlop-approach .center-list::after {
+    display: none;
+  }
+  .devlop-approach .right-list {
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .devlop-approach .text-gradient {
+    display: initial;
+  }
+  .devlop-approach .container-small {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .devlop-approach .develop-listwrap {
+    display: block;
+    margin-top: 5rem;
+  }
+  .devlop-approach .develop-listwrap:nth-child(even) p {
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .devlop-approach .develop-listwrap:nth-child(even) .left-list h4 {
+    left: -10px;
+  }
+  .devlop-approach .left-list {
+    justify-content: center !important;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+  .devlop-approach .left-list h4 {
+    left: -10px;
+    font-size: 4rem;
+  }
+  .devlop-approach .left-list h3 {
+    left: 0 !important;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .devlop-approach .center-list {
+    margin-bottom: 7rem;
+  }
+  .devlop-approach .center-list::after {
+    display: none;
+  }
+  .devlop-approach .right-list {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .devlop-approach .text-gradient {
+    display: initial;
+  }
+  .devlop-approach .container-small {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .devlop-approach .develop-listwrap {
+    display: block;
+    margin-top: 5rem;
+  }
+  .devlop-approach .develop-listwrap:nth-child(even) p {
+    text-align: center;
+  }
+  .devlop-approach .develop-listwrap:nth-child(even) .left-list h4 {
+    left: -10px !important;
+  }
+  .devlop-approach .left-list {
+    justify-content: center !important;
+    margin-bottom: 3rem;
+    margin-right: 20px;
+  }
+  .devlop-approach .left-list h4 {
+    left: -10px;
+    font-size: 4rem;
+  }
+  .devlop-approach .left-list h3 {
+    left: 0 !important;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .devlop-approach .center-list {
+    margin-bottom: 3rem;
+  }
+  .devlop-approach .center-list::after {
+    display: none;
+  }
+  .devlop-approach .right-list {
+    text-align: center;
+  }
+  .devlop-approach .right-list p {
+    width: 70%;
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=devlop-approach.css.map */
